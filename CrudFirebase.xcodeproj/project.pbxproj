@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		340DEF78F6872CFFA7FF5114 /* Pods_CrudFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E82DE3DB6875C1C94CF80E1 /* Pods_CrudFirebase.framework */; };
+		E94E510C25D8FA9D003B37AF /* InicioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94E510B25D8FA9D003B37AF /* InicioController.swift */; };
 		E961776625D8EBA8005AC687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E961776525D8EBA8005AC687 /* AppDelegate.swift */; };
 		E961776825D8EBA8005AC687 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E961776725D8EBA8005AC687 /* SceneDelegate.swift */; };
 		E961776A25D8EBA8005AC687 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E961776925D8EBA8005AC687 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 		7E82DE3DB6875C1C94CF80E1 /* Pods_CrudFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrudFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		893BE1B6191B26422470CEE4 /* Pods-CrudFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrudFirebase.release.xcconfig"; path = "Target Support Files/Pods-CrudFirebase/Pods-CrudFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		9AD65605A78BA7A53984719E /* Pods-CrudFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrudFirebase.debug.xcconfig"; path = "Target Support Files/Pods-CrudFirebase/Pods-CrudFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		E94E510B25D8FA9D003B37AF /* InicioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioController.swift; sourceTree = "<group>"; };
 		E961776225D8EBA8005AC687 /* CrudFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrudFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E961776525D8EBA8005AC687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E961776725D8EBA8005AC687 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +52,6 @@
 				9AD65605A78BA7A53984719E /* Pods-CrudFirebase.debug.xcconfig */,
 				893BE1B6191B26422470CEE4 /* Pods-CrudFirebase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -91,6 +92,7 @@
 				E961777A25D8F1C3005AC687 /* GoogleService-Info.plist */,
 				E961777025D8EBAC005AC687 /* LaunchScreen.storyboard */,
 				E961777325D8EBAC005AC687 /* Info.plist */,
+				E94E510B25D8FA9D003B37AF /* InicioController.swift */,
 			);
 			path = CrudFirebase;
 			sourceTree = "<group>";
@@ -210,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94E510C25D8FA9D003B37AF /* InicioController.swift in Sources */,
 				E961776A25D8EBA8005AC687 /* ViewController.swift in Sources */,
 				E961776625D8EBA8005AC687 /* AppDelegate.swift in Sources */,
 				E961776825D8EBA8005AC687 /* SceneDelegate.swift in Sources */,
